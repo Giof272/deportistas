@@ -1,3 +1,5 @@
+# Activando pipeline CI/CD
+
 from fastapi import FastAPI
 
 app = FastAPI()
