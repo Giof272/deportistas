@@ -13,6 +13,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Debug ACR username
+      run: |
+        echo "ACR USERNAME: ${{ secrets.ACR_USERNAME }}"
+
+
     - name: Log in to Azure
       uses: azure/login@v1
       with:
