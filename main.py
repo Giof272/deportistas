@@ -1,4 +1,4 @@
-# Activando pipeline CI/CD
+# Activando pipeline CI
 
 from fastapi import FastAPI
 
